@@ -1,0 +1,44 @@
+PS C:\Users\leila\Documents\tesis\tesisDeMelendez> & C:\Python312\python.exe c:/Users/leila/Documents/tesis/tesisDeMelendez/repo/sequence_mining/run_sequence_mining_spmf.py
+ANALISIS PARA COMPU
+Cantidad de estudiades en ese rango de años: 1375
+Cantidad de estudiantes en camada con secuencia válida: 1310
+
+Promedio de cantidad de estudiantes por año: 207.0
+0.15
+196.5 avo de secuencias
+support es de: 15%
+>/C:/Users/leila/Documents/tesis/tesisDeMelendez/repo/sequence_mining/spmf.jar
+=============  PREFIXSPAN - STATISTICS =============
+Total time ~ 217
+ Frequent sequences count : 4060
+ Max memory (mb) : 75.38265228271484
+ minsup = 197 sequences.
+ Pattern count : 4060
+ Minsup (as number of sequences)) : 197
+===================================================
+
+
+Cantidad de patterns: 4060
+PS C:\Users\leila\Documents\tesis\tesisDeMelendez> & C:\Python312\python.exe c:/Users/leila/Documents/tesis/tesisDeMelendez/repo/sequence_mining/run_sequence_mining_spmf.py
+ANALISIS PARA MATE
+Cantidad de estudiades en ese rango de años: 572
+Cantidad de estudiantes en camada con secuencia válida: 522
+
+Promedio de cantidad de estudiantes por año: 104.0
+522
+0.15
+78.3 avo de secuencias
+support es de: 15%
+>/C:/Users/leila/Documents/tesis/tesisDeMelendez/repo/sequence_mining/spmf.jar
+=============  PREFIXSPAN - STATISTICS =============
+Total time ~ 24
+ Frequent sequences count : 151
+ Max memory (mb) : 6.018218994140625
+ minsup = 79 sequences.
+ Pattern count : 151
+ Minsup (as number of sequences)) : 79
+===================================================
+
+
+Cantidad de patterns: 151
+PS C:\Users\leila\Documents\tesis\tesisDeMelendez> 

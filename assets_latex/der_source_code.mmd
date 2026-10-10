@@ -1,0 +1,82 @@
+---
+config:
+  layout: elk
+---
+erDiagram
+	direction TB
+	CARRERA {
+		string codigo_carrera PK ""  
+		string nombre_carrera  ""  
+	}
+
+	PLAN_ESTUDIO {
+		int plan PK ""  
+		string codigo_carrera FK ""  
+	}
+
+	ESTUDIANTE {
+		int persona PK ""  
+	}
+
+	INSCRIPCION_CARRERA {
+		int persona FK ""  
+		string codigo_carrera FK ""  
+		int plan FK ""  
+		date fecha_inscripcion  ""  
+	}
+
+	MATERIA {
+		string codigo_materia PK ""  
+		string nombre_materia  ""  
+	}
+
+	ESTADO_ACTA {
+		string estado PK ""  
+		string descripcion  ""  
+	}
+
+	RESULTADO {
+		string resultado PK ""  
+		string descripcion  ""  
+	}
+
+	INSTANCIA {
+		string instancia PK ""  
+		string nombre  ""  
+	}
+
+	CURSADA {
+		int persona FK ""  
+		string codigo_materia FK ""  
+		string periodo_lectivo  ""  
+		string periodo  ""  
+		int anio_academico  ""  
+		string estado_acta FK ""  
+		date fecha_cierre_acta  ""
+        date fecha_fin_dictado  ""   
+		string resultado FK ""  
+	}
+
+	FINAL {
+		int persona FK ""  
+		string codigo_materia FK ""  
+		string estado_acta FK ""  
+		date fecha_cierre_acta  ""  
+		string resultado FK ""  
+		string instancia FK ""  
+		date fecha_llamado_mesa  ""  
+	}
+
+	CARRERA||--o{PLAN_ESTUDIO:"tiene"
+	CARRERA||--o{INSCRIPCION_CARRERA:"agrupa"
+	PLAN_ESTUDIO||--o{INSCRIPCION_CARRERA:"rige"
+	ESTUDIANTE||--o{INSCRIPCION_CARRERA:"se inscribe en"
+	ESTUDIANTE||--o{CURSADA:"registra"
+	ESTUDIANTE||--o{FINAL:"rinde"
+	MATERIA||--o{CURSADA:"es cursada en"
+	MATERIA||--o{FINAL:"es evaluada en"
+	ESTADO_ACTA||--o{CURSADA:"califica"
+	ESTADO_ACTA||--o{FINAL:"califica"
+	RESULTADO||--o{CURSADA:"determina"
+	RESULTADO||--o{FINAL:"determina"
+	INSTANCIA||--o{FINAL:"clasifica"

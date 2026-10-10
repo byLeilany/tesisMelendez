@@ -1,0 +1,152 @@
+Lenght,Support,Pattern,PatternMaterias
+4,110,"[('MATE820007',), ('MATE820008',), ('MATE820011',), ('MATE820005',)]",{anl1} -> {anl2} -> {CalAvz} -> {anlCompj}
+4,110,"[('MATE820007',), ('MATE820008',), ('MATE820011',), ('MATE820022',)]",{anl1} -> {anl2} -> {CalAvz} -> {proba}
+4,108,"[('MATE820001',), ('MATE820004',), ('MATE820011',), ('MATE820022',)]",{alg1} -> {algLineal} -> {CalAvz} -> {proba}
+4,107,"[('MATE820001',), ('MATE820004',), ('MATE820011',), ('MATE820005',)]",{alg1} -> {algLineal} -> {CalAvz} -> {anlCompj}
+4,104,"[('MATE820001',), ('MATE820008',), ('MATE820011',), ('MATE820022',)]",{alg1} -> {anl2} -> {CalAvz} -> {proba}
+4,102,"[('MATE820001',), ('MATE820008',), ('MATE820011',), ('MATE820005',)]",{alg1} -> {anl2} -> {CalAvz} -> {anlCompj}
+4,99,"[('MATE820007',), ('MATE820004',), ('MATE820011',), ('MATE820005',)]",{anl1} -> {algLineal} -> {CalAvz} -> {anlCompj}
+4,98,"[('MATE820007',), ('MATE820004',), ('MATE820011',), ('MATE820022',)]",{anl1} -> {algLineal} -> {CalAvz} -> {proba}
+4,90,"[('MATE820001', 'MATE820007'), ('MATE820008',), ('MATE820011',), ('MATE820022',)]","{alg1, anl1} -> {anl2} -> {CalAvz} -> {proba}"
+4,88,"[('MATE820001', 'MATE820007'), ('MATE820008',), ('MATE820011',), ('MATE820005',)]","{alg1, anl1} -> {anl2} -> {CalAvz} -> {anlCompj}"
+4,87,"[('MATE820007',), ('MATE820008',), ('MATE820014',), ('MATE820022',)]",{anl1} -> {anl2} -> {ECN} -> {proba}
+4,85,"[('MATE820001', 'MATE820007'), ('MATE820004',), ('MATE820011',), ('MATE820022',)]","{alg1, anl1} -> {algLineal} -> {CalAvz} -> {proba}"
+4,84,"[('MATE820001', 'MATE820007'), ('MATE820004',), ('MATE820011',), ('MATE820005',)]","{alg1, anl1} -> {algLineal} -> {CalAvz} -> {anlCompj}"
+4,84,"[('MATE820001',), ('MATE820004',), ('MATE820014',), ('MATE820022',)]",{alg1} -> {algLineal} -> {ECN} -> {proba}
+4,81,"[('MATE820001',), ('MATE820008',), ('MATE820014',), ('MATE820022',)]",{alg1} -> {anl2} -> {ECN} -> {proba}
+4,81,"[('MATE820007',), ('MATE820004',), ('MATE820014',), ('MATE820022',)]",{anl1} -> {algLineal} -> {ECN} -> {proba}
+4,81,"[('MATE820007',), ('MATE820008',), ('MATE820014',), ('MATE820005',)]",{anl1} -> {anl2} -> {ECN} -> {anlCompj}
+3,147,"[('MATE820007',), ('MATE820008',), ('MATE820014',)]",{anl1} -> {anl2} -> {ECN}
+3,144,"[('MATE820001',), ('MATE820004',), ('MATE820014',)]",{alg1} -> {algLineal} -> {ECN}
+3,142,"[('MATE820007',), ('MATE820008',), ('MATE820011',)]",{anl1} -> {anl2} -> {CalAvz}
+3,139,"[('MATE820007',), ('MATE820004',), ('MATE820014',)]",{anl1} -> {algLineal} -> {ECN}
+3,136,"[('MATE820001',), ('MATE820004',), ('MATE820011',)]",{alg1} -> {algLineal} -> {CalAvz}
+3,134,"[('MATE820001',), ('MATE820008',), ('MATE820014',)]",{alg1} -> {anl2} -> {ECN}
+3,132,"[('MATE820001',), ('MATE820011',), ('MATE820022',)]",{alg1} -> {CalAvz} -> {proba}
+3,132,"[('MATE820001',), ('MATE820008',), ('MATE820011',)]",{alg1} -> {anl2} -> {CalAvz}
+3,132,"[('MATE820007',), ('MATE820008',), ('MATE820022',)]",{anl1} -> {anl2} -> {proba}
+3,129,"[('MATE820001',), ('MATE820011',), ('MATE820005',)]",{alg1} -> {CalAvz} -> {anlCompj}
+3,128,"[('MATE820001',), ('MATE820004',), ('MATE820022',)]",{alg1} -> {algLineal} -> {proba}
+3,126,"[('MATE820004',), ('MATE820011',), ('MATE820022',)]",{algLineal} -> {CalAvz} -> {proba}
+3,126,"[('MATE820007',), ('MATE820004',), ('MATE820011',)]",{anl1} -> {algLineal} -> {CalAvz}
+3,124,"[('MATE820001',), ('MATE820008',), ('MATE820022',)]",{alg1} -> {anl2} -> {proba}
+3,124,"[('MATE820004',), ('MATE820011',), ('MATE820005',)]",{algLineal} -> {CalAvz} -> {anlCompj}
+3,123,"[('MATE820007',), ('MATE820008',), ('MATE820005',)]",{anl1} -> {anl2} -> {anlCompj}
+3,123,"[('MATE820008',), ('MATE820011',), ('MATE820022',)]",{anl2} -> {CalAvz} -> {proba}
+3,122,"[('MATE820007',), ('MATE820011',), ('MATE820005',)]",{anl1} -> {CalAvz} -> {anlCompj}
+3,122,"[('MATE820007',), ('MATE820011',), ('MATE820022',)]",{anl1} -> {CalAvz} -> {proba}
+3,121,"[('MATE820001', 'MATE820007'), ('MATE820008',), ('MATE820014',)]","{alg1, anl1} -> {anl2} -> {ECN}"
+3,121,"[('MATE820008',), ('MATE820011',), ('MATE820005',)]",{anl2} -> {CalAvz} -> {anlCompj}
+3,119,"[('MATE820001',), ('MATE820004',), ('MATE820005',)]",{alg1} -> {algLineal} -> {anlCompj}
+3,116,"[('MATE820001', 'MATE820007'), ('MATE820004',), ('MATE820014',)]","{alg1, anl1} -> {algLineal} -> {ECN}"
+3,116,"[('MATE820001',), ('MATE820008',), ('MATE820005',)]",{alg1} -> {anl2} -> {anlCompj}
+3,116,"[('MATE820007',), ('MATE820004',), ('MATE820022',)]",{anl1} -> {algLineal} -> {proba}
+3,111,"[('MATE820001', 'MATE820007'), ('MATE820008',), ('MATE820011',)]","{alg1, anl1} -> {anl2} -> {CalAvz}"
+3,109,"[('MATE820001', 'MATE820007'), ('MATE820008',), ('MATE820022',)]","{alg1, anl1} -> {anl2} -> {proba}"
+3,108,"[('MATE820007',), ('MATE820004',), ('MATE820005',)]",{anl1} -> {algLineal} -> {anlCompj}
+3,105,"[('MATE820001', 'MATE820007'), ('MATE820004',), ('MATE820011',)]","{alg1, anl1} -> {algLineal} -> {CalAvz}"
+3,101,"[('MATE820001', 'MATE820007'), ('MATE820004',), ('MATE820022',)]","{alg1, anl1} -> {algLineal} -> {proba}"
+3,101,"[('MATE820001', 'MATE820007'), ('MATE820008',), ('MATE820005',)]","{alg1, anl1} -> {anl2} -> {anlCompj}"
+3,100,"[('MATE820001', 'MATE820007'), ('MATE820011',), ('MATE820022',)]","{alg1, anl1} -> {CalAvz} -> {proba}"
+3,98,"[('MATE820001', 'MATE820007'), ('MATE820011',), ('MATE820005',)]","{alg1, anl1} -> {CalAvz} -> {anlCompj}"
+3,97,"[('MATE820001',), ('MATE820014',), ('MATE820022',)]",{alg1} -> {ECN} -> {proba}
+3,93,"[('MATE820001', 'MATE820007'), ('MATE820004',), ('MATE820005',)]","{alg1, anl1} -> {algLineal} -> {anlCompj}"
+3,92,"[('MATE820007',), ('MATE820014',), ('MATE820022',)]",{anl1} -> {ECN} -> {proba}
+3,91,"[('MATE820001',), ('MATE820014',), ('MATE820005',)]",{alg1} -> {ECN} -> {anlCompj}
+3,91,"[('MATE820001',), ('MATE820004', 'MATE820008'), ('MATE820014',)]","{alg1} -> {algLineal, anl2} -> {ECN}"
+3,91,"[('MATE820008',), ('MATE820014',), ('MATE820022',)]",{anl2} -> {ECN} -> {proba}
+3,90,"[('MATE820004',), ('MATE820014',), ('MATE820022',)]",{algLineal} -> {ECN} -> {proba}
+3,90,"[('MATE820007',), ('MATE820004', 'MATE820008'), ('MATE820014',)]","{anl1} -> {algLineal, anl2} -> {ECN}"
+3,88,"[('MATE820001',), ('MATE820011',), ('MATE820010',)]",{alg1} -> {CalAvz} -> {anlReal}
+3,86,"[('MATE820001',), ('MATE820004', 'MATE820008'), ('MATE820011',)]","{alg1} -> {algLineal, anl2} -> {CalAvz}"
+3,86,"[('MATE820007',), ('MATE820014',), ('MATE820005',)]",{anl1} -> {ECN} -> {anlCompj}
+3,86,"[('MATE820008',), ('MATE820014',), ('MATE820005',)]",{anl2} -> {ECN} -> {anlCompj}
+3,85,"[('MATE820001', 'MATE820007'), ('MATE820004', 'MATE820008'), ('MATE820014',)]","{alg1, anl1} -> {algLineal, anl2} -> {ECN}"
+3,84,"[('MATE820004',), ('MATE820011',), ('MATE820010',)]",{algLineal} -> {CalAvz} -> {anlReal}
+3,84,"[('MATE820004',), ('MATE820014',), ('MATE820005',)]",{algLineal} -> {ECN} -> {anlCompj}
+3,84,"[('MATE820007',), ('MATE820004', 'MATE820008'), ('MATE820011',)]","{anl1} -> {algLineal, anl2} -> {CalAvz}"
+3,84,"[('MATE820007',), ('MATE820008',), ('!MATE820011',)]",{anl1} -> {anl2} -> {!CalAvz}
+3,84,"[('MATE820008',), ('MATE820022',), ('MATE820010',)]",{anl2} -> {proba} -> {anlReal}
+3,82,"[('MATE820001',), ('MATE820022',), ('MATE820010',)]",{alg1} -> {proba} -> {anlReal}
+3,82,"[('MATE820001',), ('MATE820004', 'MATE820008'), ('MATE820022',)]","{alg1} -> {algLineal, anl2} -> {proba}"
+3,82,"[('MATE820007',), ('MATE820011',), ('MATE820010',)]",{anl1} -> {CalAvz} -> {anlReal}
+3,81,"[('MATE820004',), ('MATE820022',), ('MATE820010',)]",{algLineal} -> {proba} -> {anlReal}
+3,81,"[('MATE820008',), ('MATE820011',), ('MATE820010',)]",{anl2} -> {CalAvz} -> {anlReal}
+3,80,"[('MATE820001', 'MATE820007'), ('MATE820004', 'MATE820008'), ('MATE820011',)]","{alg1, anl1} -> {algLineal, anl2} -> {CalAvz}"
+3,80,"[('MATE820007',), ('MATE820004', 'MATE820008'), ('MATE820022',)]","{anl1} -> {algLineal, anl2} -> {proba}"
+3,79,"[('MATE820001', 'MATE820007'), ('MATE820014',), ('MATE820022',)]","{alg1, anl1} -> {ECN} -> {proba}"
+3,79,"[('MATE820007',), ('MATE820008',), ('MATE820010',)]",{anl1} -> {anl2} -> {anlReal}
+2,263,"[('MATE820007',), ('MATE820008',)]",{anl1} -> {anl2}
+2,229,"[('MATE820001',), ('MATE820008',)]",{alg1} -> {anl2}
+2,218,"[('MATE820001',), ('MATE820004',)]",{alg1} -> {algLineal}
+2,203,"[('MATE820007',), ('MATE820004',)]",{anl1} -> {algLineal}
+2,174,"[('MATE820001', 'MATE820007'), ('MATE820008',)]","{alg1, anl1} -> {anl2}"
+2,167,"[('MATE820001',), ('MATE820011',)]",{alg1} -> {CalAvz}
+2,167,"[('MATE820001',), ('MATE820014',)]",{alg1} -> {ECN}
+2,166,"[('MATE820004',), ('MATE820011',)]",{algLineal} -> {CalAvz}
+2,165,"[('MATE820004',), ('MATE820014',)]",{algLineal} -> {ECN}
+2,163,"[('MATE820008',), ('MATE820014',)]",{anl2} -> {ECN}
+2,162,"[('MATE820007',), ('MATE820014',)]",{anl1} -> {ECN}
+2,160,"[('MATE820008',), ('MATE820011',)]",{anl2} -> {CalAvz}
+2,158,"[('MATE820007',), ('MATE820011',)]",{anl1} -> {CalAvz}
+2,155,"[('MATE820001', 'MATE820007'), ('MATE820004',)]","{alg1, anl1} -> {algLineal}"
+2,149,"[('MATE820001',), ('MATE820022',)]",{alg1} -> {proba}
+2,149,"[('MATE820004',), ('MATE820022',)]",{algLineal} -> {proba}
+2,148,"[('MATE820008',), ('MATE820022',)]",{anl2} -> {proba}
+2,145,"[('MATE820011',), ('MATE820022',)]",{CalAvz} -> {proba}
+2,140,"[('MATE820004',), ('MATE820005',)]",{algLineal} -> {anlCompj}
+2,140,"[('MATE820011',), ('MATE820005',)]",{CalAvz} -> {anlCompj}
+2,139,"[('MATE820007',), ('MATE820022',)]",{anl1} -> {proba}
+2,138,"[('MATE820008',), ('MATE820005',)]",{anl2} -> {anlCompj}
+2,137,"[('MATE820001',), ('MATE820005',)]",{alg1} -> {anlCompj}
+2,135,"[('MATE820001',), ('!MATE820004',)]",{alg1} -> {!algLineal}
+2,131,"[('MATE820001', 'MATE820007'), ('MATE820014',)]","{alg1, anl1} -> {ECN}"
+2,129,"[('MATE820007',), ('MATE820005',)]",{anl1} -> {anlCompj}
+2,125,"[('MATE820001', 'MATE820007'), ('MATE820011',)]","{alg1, anl1} -> {CalAvz}"
+2,124,"[('MATE820007',), ('!MATE820004',)]",{anl1} -> {!algLineal}
+2,114,"[('MATE820001', 'MATE820007'), ('MATE820022',)]","{alg1, anl1} -> {proba}"
+2,112,"[('MATE820001',), ('MATE820004', 'MATE820008')]","{alg1} -> {algLineal, anl2}"
+2,110,"[('MATE820007',), ('MATE820004', 'MATE820008')]","{anl1} -> {algLineal, anl2}"
+2,105,"[('MATE820001', 'MATE820007'), ('MATE820005',)]","{alg1, anl1} -> {anlCompj}"
+2,103,"[('MATE820014',), ('MATE820022',)]",{ECN} -> {proba}
+2,102,"[('MATE820001', 'MATE820007'), ('MATE820004', 'MATE820008')]","{alg1, anl1} -> {algLineal, anl2}"
+2,97,"[('MATE820004', 'MATE820008'), ('MATE820014',)]","{algLineal, anl2} -> {ECN}"
+2,97,"[('MATE820011',), ('MATE820010',)]",{CalAvz} -> {anlReal}
+2,97,"[('MATE820014',), ('MATE820005',)]",{ECN} -> {anlCompj}
+2,94,"[('MATE820007',), ('!MATE820008',)]",{anl1} -> {!anl2}
+2,93,"[('MATE820004', 'MATE820008'), ('MATE820011',)]","{algLineal, anl2} -> {CalAvz}"
+2,93,"[('MATE820008',), ('MATE820010',)]",{anl2} -> {anlReal}
+2,91,"[('MATE820001',), ('!MATE820011',)]",{alg1} -> {!CalAvz}
+2,91,"[('MATE820008',), ('!MATE820011',)]",{anl2} -> {!CalAvz}
+2,90,"[('MATE820007',), ('!MATE820011',)]",{anl1} -> {!CalAvz}
+2,89,"[('MATE820001',), ('MATE820010',)]",{alg1} -> {anlReal}
+2,89,"[('MATE820022',), ('MATE820010',)]",{proba} -> {anlReal}
+2,88,"[('!MATE820001',), ('MATE820001',)]",{!alg1} -> {alg1}
+2,88,"[('MATE820004', 'MATE820008'), ('MATE820022',)]","{algLineal, anl2} -> {proba}"
+2,88,"[('MATE820004',), ('MATE820010',)]",{algLineal} -> {anlReal}
+2,84,"[('MATE820004',), ('!MATE820011',)]",{algLineal} -> {!CalAvz}
+2,83,"[('!MATE820004',), ('MATE820004',)]",{!algLineal} -> {algLineal}
+2,83,"[('MATE820004', 'MATE820008'), ('MATE820005',)]","{algLineal, anl2} -> {anlCompj}"
+2,83,"[('MATE820007',), ('MATE820010',)]",{anl1} -> {anlReal}
+2,82,"[('!MATE820007',), ('MATE820007',)]",{!anl1} -> {anl1}
+2,81,"[('MATE820001',), ('MATE820002',)]",{alg1} -> {alg2}
+2,80,"[('MATE820004',), ('MATE820002',)]",{algLineal} -> {alg2}
+2,80,"[('MATE820008',), ('MATE820002',)]",{anl2} -> {alg2}
+2,80,"[('MATE820008',), ('MATE820004',)]",{anl2} -> {algLineal}
+1,358,"[('MATE820007',)]",{anl1}
+1,351,"[('MATE820001',)]",{alg1}
+1,296,"[('MATE820008',)]",{anl2}
+1,258,"[('MATE820004',)]",{algLineal}
+1,206,"[('MATE820001', 'MATE820007')]","{alg1, anl1}"
+1,188,"[('MATE820011',)]",{CalAvz}
+1,184,"[('MATE820014',)]",{ECN}
+1,180,"[('!MATE820001',)]",{!alg1}
+1,174,"[('!MATE820004',)]",{!algLineal}
+1,165,"[('!MATE820007',)]",{!anl1}
+1,162,"[('MATE820022',)]",{proba}
+1,151,"[('MATE820005',)]",{anlCompj}
+1,121,"[('MATE820004', 'MATE820008')]","{algLineal, anl2}"
+1,110,"[('!MATE820008',)]",{!anl2}
+1,102,"[('!MATE820011',)]",{!CalAvz}
+1,98,"[('MATE820010',)]",{anlReal}
+1,90,"[('MATE820002',)]",{alg2}

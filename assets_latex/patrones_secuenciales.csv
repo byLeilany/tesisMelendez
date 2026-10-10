@@ -1,0 +1,17 @@
+Lenght,Support,Pattern,PatternMaterias
+3,333,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013')]","{alg, analisis} -> {algo1, proba} -> {algo2, orga1}"
+2,462,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016')]","{alg, analisis} -> {algo1, proba}"
+2,420,"[('COMP930001', 'COMP930007'), ('COMP930004', 'COMP930013')]","{alg, analisis} -> {algo2, orga1}"
+2,381,"[('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013')]","{algo1, proba} -> {algo2, orga1}"
+2,299,"[('COMP930001',), ('COMP930003',)]",{alg} -> {algo1}
+1,810,"[('COMP930001', 'COMP930007')]","{alg, analisis}"
+1,773,"[('COMP930003',)]",{algo1}
+1,648,"[('COMP930004', 'COMP930013')]","{algo2, orga1}"
+1,617,"[('COMP930001',)]",{alg}
+1,551,"[('COMP930003', 'COMP930016')]","{algo1, proba}"
+1,534,"[('COMP930007',)]",{analisis}
+1,476,"[('COMP930014',)]",{orga2}
+1,451,"[('COMP930013',)]",{orga1}
+1,444,"[('COMP930004',)]",{algo2}
+1,382,"[('COMP930005',)]",{algo3}
+1,326,"[('COMP930017',)]",{SO}

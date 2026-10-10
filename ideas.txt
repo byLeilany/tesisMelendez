@@ -1,0 +1,345 @@
+logos en tab y en pag web. Y nombre a la app para texto
+
+run_sequence_mining: filtrar solo gente que primer año tiene materia de primer año del plan 
+trabajo futuro: add otro criterio de limpieza a los datos iniciales year libreta universitaria
+
+
+ausentes mencionar
+
+Tabla patrones, rayas por long
+
+caption tabla con totalidad de estudiantes y en el texto como tal
+
+
+
+checkear si patron consideraa que sea cuatri inmediatamente siguiente "4,102,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013'), ('COMP930005', 'COMP930017')]","{alg, analisis} -> {algo1, proba} -> {algo2, orga1} -> {algo3, SO}""
+tener claro porque estos patrones aparecen. Tener claro el algoritmo
+4,112,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013'), ('COMP930010',)]","{alg, analisis} -> {algo1, proba} -> {algo2, orga1} -> {inge2}"
+4,102,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013'), ('COMP930005', 'COMP930017')]","{alg, analisis} -> {algo1, proba} -> {algo2, orga1} -> {algo3, SO}"
+4,94,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013'), ('COMP930012', 'COMP930014')]","{alg, analisis} -> {algo1, proba} -> {algo2, orga1} -> {metnum, orga2}"
+
+
+support: 100 para patrones secuenciales
+
+
+
+
+________________________________________________________________________________________________________________________
+
+
+log 20/07: escribir en overleaf
+log 18/07: histograma colocar rojo en cuatriSugerido por el CSV. Sacar la info cuatri sugerido del csv en histograma_NroCuatri_CantPersona.ipynb para color y extensibilidad en futuro que a alguien le provoque hacer lo mismo con otros planes
+
+log 16/7: writing en overleaf
+log 12/07: escribiendo en el overleaf
+
+ OVERLEAF AGREGAR vvv
+ [DONE] - para notar: info: el label de Loop0 no cambia porque quienes reprobaron el primer cuatri, van a ser el mismo conj de gente que siga reprobando en cuatris max_Slider
+                reply: esta bien que no cambie #Loop0: en [1, anyStep] porque el conj d personas que recurso el primer cuatri, es el mismo que va a seguir reprobando despues, no va a spawnear mas gente de la camada xq NO estoy viendo calendarioAcademico, estoy ennumerando los cuatris (sin contar los gaps de inscripcion d la gente) 
+[DONE] - INCLUIR VERANO EN 1ER CUATRI PING PING PING SE ME VA A OLVIDAR
+
+- sintaxis para OVERLEAF duda: cohorte vs camada??
+
+-DATAZO para añadir OVERLEAF AGREGAR: al pasar una base nueva a /bases, hay que asegurarse que la columna "plan" este en plan_por_alumno y a manopla(TODO hacer un jupiter) que te deje explorar el archivo y poder conseguir el cod_materia desde  df_lista_de_materias[df_lista_de_materias['codigo_materia'].str.contains('COMP23')].sort_values(by="codigo_materia") 
+                                y luego crear csv que matchee ese (cod_materia, nombre_materia) a (cod_materia, nombre_oficial) y ahora si a manopla las columnas (nomreCorto,cuatriSugerido) 
+
+
+
+que NO sea el historico, sin el que va despues de filter_by_step_range()
+"Materia Reprobada, Estudiantes Unicos, Cantidad Intentos
+algo1:    18,    27
+algo2:    1,    1
+orga1:    3,    3
+proba:    11,    12"
+
+
+
+
+en la facu: 
+
+
+De lo sinComentar ahora :
+- falta load_from_disk
+- ver si en la casa esto corre xd
+- display IdeaDani
+
+de lo comentado falta: 
+- slider cuatriRange layout y callback
+- en callback que corte con comportamiento correcto el grafo
+- un comment todas vars de cuatriRange de callback update_graph y de compute_graph, y el llamado a filter_by_step desde el callback
+-descomentar el “Input("filter-first-year-checkbox", "value")” de update_graph
+
+
+REU 06/07/2026:
+
+- highlight: en grafo para 1 alumno en particular. colocar un input para idAlumno. (opcional?)
+- ya que tengo max_appears de edges, lo podria usar como cota max para el min_weight slider. Hace dependencias recursivas?
+- loopFinales: se intento dar final en una materia y se desaprobó. idea: add info de materias a las que intento dar final en rulo
+- IDEAdani para generate_nodes_and_edges:  ReplyPablo: "mostrar como (materia, #intentosTotales)"
+        -agregar info en un histograma al seleccionar el nodo de desgloce por materia de #intentos (aun not implemented A PARTIR DE ESE NODO) de materias a las que se inscribio desde ese nodo y reprobo hasta porfin salir de ese vectorEstado
+        Escrito en ---- 2b. Capturar raw data recursadas
+
+overleaf: 
+- duda: Verano se considera como un cuatrimestre, esta ok? 
+        -replyPablo: incluirlo en el primer (tratar a verano como 1er cuatrimestre). Hay que tratar eso antes al cargar la base, asi siempre lo toma asi
+
+
+
+[DONE] sacar 2.3 y pasarlo a section 2 como parrafo de que quiero hacer
+[DONE] 2.4 y 2.5 mergear en section 3. Implementación
+[DONE] Duda: en generate_nodes_and_edges: seccion 7 nunique descarta duplicados tanto para loops
+    # DONE: cuando source!=target, en appears PUEDE haber persona repetidas?? NO
+    # SOLUCION: Como node_id viene de un estado acumulado (cummax), es monótonamente no decreciente por persona. Para aristas normales (source != target) no puede repetirse: una vez que la persona avanza de estado A a B, nunca vuelve a A (cummax no retrocede). 
+________________________________________________________
+
+esto es un CATALOO
+catalog_records: 
+[2026-07-05 21:44:58,830] DEBUG in callbacks: [
+{'codigo_materia': 'COMP930001', 'nombre_oficial': 'Álgebra I', 'nomenclatura': 'alg', 'cuatri_sugerido__LCCOMP_1993': 1}, 
+{'codigo_materia': 'COMP930003', 'nombre_oficial': 'Algoritmos y Estructuras de Datos I', 'nomenclatura': 'algo1', 'cuatri_sugerido__LCCOMP_1993': 2}, 
+{'codigo_materia': 'COMP930004', 'nombre_oficial': 'Algoritmos y Estructuras de Datos II', 'nomenclatura': 'algo2', 'cuatri_sugerido__LCCOMP_1993': 3}, 
+{'codigo_materia': 'COMP930005', 'nombre_oficial': 'Algoritmos y Estructuras de Datos III', 'nomenclatura': 'algo3', 'cuatri_sugerido__LCCOMP_1993': 5}, 
+{'codigo_materia': 'COMP930007', 'nombre_oficial': 'Análisis II', 'nomenclatura': 'analisis', 'cuatri_sugerido__LCCOMP_1993': 1}, 
+{'codigo_materia': 'COMP930008', 'nombre_oficial': 'Base de Datos', 'nomenclatura': 'bases', 'cuatri_sugerido__LCCOMP_1993': 7}, 
+{'codigo_materia': 'COMP930009', 'nombre_oficial': 'Ingeniería de Software I', 'nomenclatura': 'inge1', 'cuatri_sugerido__LCCOMP_1993': 6}, 
+{'codigo_materia': 'COMP930010', 'nombre_oficial': 'Ingeniería de Software II', 'nomenclatura': 'inge2', 'cuatri_sugerido__LCCOMP_1993': 8}, ....]
+
+
+ToDO 05/7:
+- el orden del label del nodo debe salir en orden del plan de estudioselected
+- fix no matchea old graph vs new 
+        idea: puede ser el filter_by_plan_value. Aunque no explica el rulo inexistente
+        check: misma #camada en old vs new
+                'Log del grafo viejo vs nuevo:
+                setting: LCCOMP, 1993, minWeight: 8 , cuatri_range: [1,20]
+
+                [2026-07-05 21:00:01,154] DEBUG in main: (4, 5), edgeWeight: 11, from: 4 ##### MAL: EN GRAFO NUEVO ES 12 
+                2. alg, to: 5
+                2. alg
+                4. algo1
+
+                [2026-07-05 21:00:01,215] DEBUG in main: (3, 3), edgeWeight: 7, from: 3 ######### MAL: FALTA RULO EN este
+                4. algo1, to: 3
+                4. algo1
+                [2026-07-05 21:00:01,216] DEBUG in main: (4, 4), edgeWeight: 12, from: 4
+                2. alg, to: 4
+                2. alg
+                [2026-07-05 21:00:01,218] DEBUG in main: (5, 5), edgeWeight: 9, from: 5  ######### MAL: EN NUEVO ES 10 weight
+                2. alg
+                4. algo1, to: 5
+                2. alg
+                4. algo1'
+
+update 05/07/2026:
+hice update de csv en archivo aparte, ire subiendo de a poco aca
+
+
+ideas en la facu 03/07/2026
+-en framework section mencionar: "use graphviz y luego mejor la de dash"
+
+-TODO: evaluar el tiempo que tarda en general el grafo? pedir claude optimizacion sugerida por gemini para actualizacion de los vectoresEstado “El pre-procesamiento fuera de la vista: Veo que en nodosFromTP.py e iteraciones similares hay lógica con alta complejidad algorítmica iterando sobre filas (for filaNro in range(1, len(cursadas_camadaYEAR)):). Aunque usas herramientas robustas, los bucles for nativos sobre DataFrames de Pandas no están vectorizados. ¿Evaluaste usar shift() o groupby().apply() para optimizar este cálculo? Si no lo optimizaste porque el tiempo de carga actual es aceptable, deberías mencionarlo formalmente como un "compromiso de diseño" (trade-off entre tiempo de desarrollo y tiempo de ejecución).”
+
+-TODO2: comment para TrabajosAFuturo “Escalabilidad de los Callbacks en Dash: Veo en tu app.py que cada vez que el usuario mueve el slider o cambia el menú desplegable, llamas a funciones como actualizar_elementsTP_graph o actualizar_elementsFINALS_graph. Estas funciones vuelven a recalcular cortes y transformaciones sobre los DataFrames. Como crítica arquitectónica: Dash ejecuta los callbacks en el servidor. Si el dataset histórico de la facultad crece, o si la herramienta tiene usuarios concurrentes, este recálculo bajo demanda podría saturar el backend. En tu tesis, sería excelente que menciones esto en la sección de "Trabajo Futuro" o "Limitaciones", sugiriendo el uso de caché (como flask_caching) o la pre-computación de los grafos estáticos.”
+
+-pabloConsulta: hago una base en SQL? me da un poco de cosa que los datos esten en un excel. O capaz deberia justificarlo que lo deje asi para no modificar los datos que nos pasaron. 
+pabloQUOTE: “me gustaria que quedara como una herramienta completa que se pueda utilizar por alguien de la facultad y no simplemente una prueba de concepto. Que permita crear preguntas y extenderla con mas funcionalidades en un futuro” (TODO: pedir ai q es necesario para poder hacer esto. “que evalue la app y me indique que debo hacer para completarla”)
+-TODO ai: donde poner una foto del sistema y/o varios screenshots. y diagrama de arquitectura
+
+
+reu 02/07/2026
+-en vez de aux_functions.py, pensar desde el POV usuario, tener un archivo csv agregar con mapping entre codigo materia, nombre largo, y nombre corto. y nro de cuatrimestre. que haga lo d aux_function.Usario puede descargar ese archivo csv que pueda editarse desde los archivos. 
+--->>>> OOOOOOOOOOO tener otra pag que te permita subir ese archivo? con mapeo codigo_materias-nombre_oficial-nomenclatura-PlanEstudio
+
+overleaf:
+-justificacion para vectorEstado: queremos ver q en cada momento saber el estado general de estado del estudiante y por eso usamos un vector
+-lo que mas importa es la justificacion de decisiones que tomamos. Mejoras a futuro tener una base de datos. 
+
+info: conclusiones es 1 carilla
+[DONE]recortada para boxplot y completo en anexo
+_____________________________________
+log28/06:
+escribir de datos
+a) opcion para agregar plan de estudio
+b) opcion para seleccionar mas carreras
+
+log 27/06:
+-en overleaf hay info de fuente de datos y DER creado
+log 25/06:
+en overleaf cambie indice por sugerencia de Pablo T y escribi un poco de fuente de datos
+log 20/06: 
+- se escribio indice y se quito input redundante en funcion de crear df_edges
+done - Aun queda pendiente arreglar el nodosDelPlan23
+log 19/06:
+termine de escribir que hace main.py
+
+
+ToDo 04/06/2026:
+[DONE] fixed colores y updated camadaYEAR finales
+[DONE] Progreso al paso de estos cuatrimestres. que haya cota Inferior del slider. Asi es "foto" por cuatrimestre dejar todos los nodos en maxCuatrimestres, y solo aristas de esa foto
+
+x puedo usar df_calendario para asignar un cuatri a c/final y hacer que slider de "al paso de X cuatrimestres" funcione ahi tambien
+        No porque hay fechaInicio y fechaFin se solapan. 
+        - duda: Capaz puede ser el mismo slider del "al paso de años"??
+
+
+[DONE] Agregar en info en doc: la definicion de estudiante [https://informacionestadisticauba.rec.uba.ar/facultades/]
+[DONE] "#14/06: LETS GO SI DA BIEN LO DE ARRIBA, HAY 81 persona recursantes en el primerCuatri de 2017" 
+ --->>> la idea fue "quiero ELIMINAR esas personas q tienen al menos 1 aprobada de los que tiene al menos 1 desaprobada paa chekear q la #personas recursantes de cuatriPassed[1,1] es correcta"
+ en nodos_TP.ipynb
+
+[DONE] en el nodo info label: para asignar codigo/posEnVector en que lo haga dependiendo del orden del plan
+- hacer analisis: cual es la cantidad de gente que llega a cumplir plan de estudio en tiempo (o antes) y forma
+
+
+
+- arista: gente q se inscribio a al menos una materia y no aprobo ninguna
+- es posible llegar a esta info: cuanto te tarda en volver al track oficial. A partir del grafo. 
+- HISTOGRAMA, en que cuatrimestre llega la gente c/nodo ((((((((Grafo idea en folder "repo")))))))) materia bimodal
+
+
+
+
+"recibi una base horrible aninimizadaa, la procese e hice heramientas q soluciona preguntas: lo ultimo q estuve anotando
+y tambien se pueden correr estas herramientrasPattrones Search
+
+info q puedo hacer a partir de el procesamiento del dataset.
+
+cuanto s repite del patron en el GSP. 
+" -quote Mati
+
+NO DEBE HABER AMBIGUEDAD: datos q quede, los q fiiltre, que 
+es estudiante, que no es. que es arista, que es loop. 
+pueden haber estudiantes"Perfiles", y compararlo con la cursada
+
+
+
+
+notes future:
+- hay que definir ALUMNO: en docs con todos los filtros q tiene
+- capaz a futuro dejar opcion de elegir carrera
+- debe suceder que cantidad de SUM (flechas IN ) == SUM(flechasOut) + SUM(droppedCarrea) 
+- hostear la pag
+
+______________________________
+19/05/2026
+[DONE] design: swap 2 primeros filtros
+[DONE] suggestion: mejorar buscarNodosDesconectados(df_edges, dic_node, []) de nodosFromTP.py con "df_edges[df_edges['edge'].str[1] == nodoIn]" filtro
+[DONE] escribir en docs decisiones de filtro de personas.  y como se "cortan" los nodos sueltos del grafo
+
+
+[done-seguir] dado este plan, como cursaron: agregar opcion de filtrar por plan (solo aquellos estudiantes que SI estan inscriptos a ese plan), 
+        [DONE] falta esto-> mostrar el sugerido pintado en el grafo y label
+        [DONE] falta agregar LCDA210006 (alc) 
+        [DONE] mantener el filtro de estudiantes por plan? 
+                Update 01/06: ahora se puede seleccionar ningun plan y te coloca las trayectorias de TODOS los estudiantes q arrancaron/inscribieron ese año
+[DONE] ERROR a chekear: que esos nodos sueltos ramdom del docs??????????????? xq hay nodos sin flecha?? ((foto en docs?)) update 23/5: creo que se rompe con cuerditas de weight 1. 
+                Update 01/06: efectivamente era el weight
+
+
+
+
+[DONE] - camada == usar mejor el year del df_planes_por_alumno en fecha_inscripcion:. 
+[DONE] - Comparar con CamadaYEAR actual. ver #personas camada antes vs camadaInscripcion.
+    Update 02/06: todos los de year1eraCursada estan en  yearInscripcion EXCEPTO los de PROFCOMP.  (old - new)
+    y de year1eraCursada hay 785 que no estan en yearInscripcion, pero deben ser personas que se inscribieron pero nunca cursaron
+
+[DONE] filtrar mejor estudiantes: a SOLO los que su primera materia aprobada/inscripta (solo A, o U/R (la q sea mejor)) sea alguna de las del primer año del plan (en 93 (alg, analisis, algo1 o proba))
+
+
+
+- MatiIdea: dado una persona, despues de #cuatris, en que estado estado estan  "cuanto avanzo la gente en 1 cuatri (con slider)"
+
+## rn sé cuantos recursaron pero no a que velocidad(se pierde temporalidad). 
+## "hago plan en forma pero NO en tiempo" (ejm puedo hacer 2 materias c/ 2 años)
+## "quiero saber cómo la gente avanza en x #cuatrimestres" 
+
+## punto aparte: la suma total de #personas en flechasIN en un nodo, deberia ser la suma #personas flechasOUT del mismo nodo
+- ^^ colocar en la info del nodo:  la #desertores (gente que no cursó más nunca) a partir de ese nodo
+
+
+[DONE]SLICER de temporalidad: a donde va a la gente AFTER X #cuatrimestres
+
+
+
+______________________________________
+[DONE] yyyyyy toggle para el grafo de finales no? o como agregar la info de finales??
+
+[done-ish] dado este plan, como cursaron: agregar opcion de filtrar por plan (solo aquellos estudiantes que SI estan inscriptos a ese plan), mostrar el sugerido pintado en el grafo 
+
+
+[DONE??????] mail a mati, nos reunimos martes 19? 
+
+____________________________________
+TO-Do 04/05/2026: 
+
+[DONE] - hacer lista precalculada con columnas (estudianteID - yearCursoPrimeraMateriaFacultad)
+[DONE] - Cuando se coloca año. Hay que Elegir a TODAS las personas del year (1er y 2ndo cuatri) ((((((((actualmente solo es 1er cuatri))))))))
+[DONE] - hacer filtro de excel de elegir varios años al mismo tiempo, select all, o ninguno
+[DONE] - Info de nodo: 
+        [DONE] i) cuantas personas llegaron/pasaron a este "estado"  ## idea: puedo hacer un lookup en vectores completos (sin cortar edges?) y ver la suma de los que tienen como LLEGADA a ese nodo
+                                ##### ACLARAR: #personas que veo en el grafo
+        [DONE] ii) nombre completo de "nombre reducido materia"
+[DONE] explota en 2023 porque nunca hice el mapping de agregar materias nuevas (tienen codigo nuevo)
+[doneDocs] info (+ ver foto en docs): en 2015, con cutAt 1, en el nodo 2, la persona 4474 aparece como recursante pero NO en flecha IN. Porque le provocó hacer esas dos materias al inciar su carrera ??. Esta bien representarlas en el nodoLoop aunque no hayan llegado a ese nodo tecnicamente?
+[DONE fix bad filter] - 4474 por QUE aparece en grafo de 2015 si su primera materia es del 2013?????????????????????
+[DONE ish] DUDA/comment de Info de nodo i): logic rn: "#estudiantesConAristaINenEseNodo PRE cortar nodos del graph". Deberia ser post??? o sea que actually sea la suma de flechas entrantes? 
+        ### 
+
+
+
+
+_______________________________________
+16_04_2026
+
+QUESTION: los patrones y grafo en general deberia ser en varios años o un unico año en particular??????????????
+
+[DONE?] 1) grafico para los patrones
+            eje x largo
+            eje y frecuencia
+
+[DONE]  2)agrupar por cuatri:
+            Cambiar el evaluar  " ['COMP930001', 'COMP930012', 'COMP930018']," de patrones, a usar lista de lista con las etapas/vector [1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] que tenia el grafo graphviz
+            es distinguigible el individuo en patrones, indistinguible en grafico el individuo
+
+3)
+para el grafico: estaria ver # individuos unicos entre varios nodos seleccionados 
+
+
+[done?] 4) ideal: reorganizar codigo como def functions de (nodos_TP y nodos_Finales)
+______________________________________
+2. Behavioral and Enrollment Patterns
+These patterns reveal how students navigate the university's flexibility. 
+Educational Data Mining
+Educational Data Mining
+Path Diversification: Cluster students into "Standard" (follow the recommended curriculum) vs. "Turbulent" (frequent course drops, late inscriptions, or non-linear subject choices) trajectories.
+Enrollment Bottlenecks: Identify "Gatekeeper" subjects where high failure rates or late inscription dates consistently delay a student's graduation.
+Co-enrollment Networks: Build networks of courses frequently taken together in the same semester to see if specific "bundles" correlate with higher stress or lower grades. 
+Universidad de Alicante
+Universidad de Alicante
+ +3
+
+ 4. Methodological Suggestions for Your Thesis
+To find these patterns, consider these standard CS approaches:
+Sequence Classification: Use the course history as input for algorithms like Random Forest or SVM to predict graduation status.
+Clustering (K-Means/Hierarchical): Group students with similar sequences to see if "types" of learners emerge.
+Association Rule Mining: Find rules like {SubjA, SubjB} -> {SubjC} with high confidence to understand elective choices. 
+Nature
+Nature
+ +4
+
+_________________
+1. Define the "Reference Trace"
+Create a baseline sequence representing the Model Curriculum (the "Standard Path").
+Standard Path: [1,2,3,4]
+
+Student Path: [1,2,_,3]
+ (indicating a fail and a gap).
+2. Measure "Distance" from the Norm
+Use Edit Distance (Levenshtein Distance) or Dynamic Time Warping (DTW) to calculate a "Turbulence Score."
+Low Score: The student follows the map perfectly.
+High Score: The student has many "insertions" (retakes), "deletions" (skipped semesters), or "substitutions" (taking electives out of order).
+
+3. Identify "Branching Points"
+Analyze at which specific $subject$ students typically deviate.
+
+Bottleneck Detection: If 60% of students deviate after "Organic Chemistry," that subject is a structural divergence point.

@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="BJHPTzOnUqzCr2LzUOMD">
+    <mxGraphModel dx="1533" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="120" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qLpQexxDkHeppTOt8XfY-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;fillColor=none;fontColor=#000000;strokeColor=#A6A6A6;" value="" vertex="1">
+          <mxGeometry height="130" width="160" x="-100" y="273" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-31" edge="1" parent="1" source="qLpQexxDkHeppTOt8XfY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1.5;curved=0;" target="qLpQexxDkHeppTOt8XfY-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="440" width="180" x="130" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rZgFq4bvERprVrEA3bGl-1" edge="1" parent="1" source="nKD4Zm9Qrxqx2hChjoMW-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1.5;" target="qLpQexxDkHeppTOt8XfY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nKD4Zm9Qrxqx2hChjoMW-2" parent="1" style="strokeWidth=1.5;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;rounded=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;spacingTop=26;autosizeText=1;fontSize=14;" value="&lt;b&gt;&lt;font&gt;Registros del &lt;br&gt;SIU-Guaraní&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font&gt;&lt;i&gt;Excel (.xlsx)&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="-80" y="283" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;p&gt;&lt;b&gt;Ingestión&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="-100" y="243" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;p&gt;&lt;b&gt;Capa de Dominio (/core)&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="130" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;b&gt;data_loader.py&lt;/b&gt;&lt;div&gt;&lt;i&gt;catálogo dinámico y preprocesamiento&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="140" x="150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;b&gt;graph_engine.py&lt;/b&gt;&lt;div&gt;&lt;i&gt;construcción y poda del grafo&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="140" x="150" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;b&gt;utils.py&lt;/b&gt;&lt;div&gt;&lt;i&gt;camada, vectores&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="140" x="150" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-32" edge="1" parent="1" source="qLpQexxDkHeppTOt8XfY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1.5;curved=0;" target="qLpQexxDkHeppTOt8XfY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="440" width="180" x="389" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;p&gt;&lt;b&gt;Capa de aplicación e inicialización&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="389" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;b&gt;app.py&lt;/b&gt;&lt;div&gt;&lt;i&gt;instanciación de la app&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="140" x="410" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;b&gt;index.py&lt;/b&gt;&lt;div&gt;&lt;i&gt;punto de entrada&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="140" x="410" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-33" edge="1" parent="1" source="qLpQexxDkHeppTOt8XfY-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.5;curved=0;" target="qLpQexxDkHeppTOt8XfY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="440" width="180" x="650" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;p&gt;&lt;b&gt;Capa de presentación declarativa&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="649" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;b&gt;layout.py&lt;/b&gt;&lt;div&gt;&lt;i&gt;interfaz visual&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="140" x="670" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="440" width="180" x="910" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-30" edge="1" parent="1" source="qLpQexxDkHeppTOt8XfY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1.5;" target="qLpQexxDkHeppTOt8XfY-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="620" />
+              <mxPoint x="220" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;p&gt;&lt;b&gt;Capa de interactividad reactiva&lt;/b&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="240" x="910" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" value="&lt;b&gt;callbacks.py&lt;/b&gt;&lt;div&gt;&lt;i&gt;@app.callback&lt;/i&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="75" width="140" x="930" y="302.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qLpQexxDkHeppTOt8XfY-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;fontStyle=0;fontSize=15;" value="&lt;p&gt;&lt;span&gt;Invoca a recomputar&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="161.25" x="540" y="620" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

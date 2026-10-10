@@ -1,0 +1,19 @@
+Basado en tu plan de tesis y en los artículos proporcionados, aquí tienes sugerencias concisas de ideas, objetivos, actividades y herramientas que puedes añadir para enriquecer tu investigación:
+
+**1. Ideas y Conceptos a incorporar**
+*   **Análisis de Rendimiento (Éxito/Fracaso):** No te limites al orden de inscripción de las materias. Incorpora variables de aprobación y reprobación dentro de las secuencias (por ejemplo: "estudiantes que reprueban la materia A, en el siguiente semestre reprueban B").
+*   **Restricciones temporales extendidas en GSP:** Al utilizar el algoritmo GSP (Generalized Sequential Patterns), incorpora restricciones de tiempo como ventanas deslizantes (*sliding windows*), y brechas mínimas y máximas de tiempo (*min-gap*, *max-gap*). Esto permitirá modelar estudiantes que pausan sus estudios o espacian la cursada de ciertas materias correlativas.
+
+**2. Objetivos Específicos (Ampliaciones al OE2 y OE3)**
+*   **Formalizar la comparación con el plan de estudios:** Propón modelar el plan de estudios oficial como un Autómata Finito Determinista (DFA) o un lenguaje formal. Esto te dará un modelo matemático base para comparar sistemáticamente las trayectorias reales.
+*   **Identificación de causales de abandono y cuellos de botella:** Añade explícitamente el objetivo de descubrir patrones secuenciales que preceden a la deserción estudiantil o que identifican trayectorias de rezago.
+
+**3. Actividades para el Cronograma**
+*   **Aplicación de "Relajación de Restricciones" (Constraint Relaxations):** Agrega una tarea de minería de datos donde utilices el plan de estudios oficial (el DFA) como una restricción y apliques "relajaciones" (por ejemplo, buscar trayectorias que tengan una distancia de edición pequeña respecto al plan ideal, o buscar específicamente los patrones "no aceptados" por el plan). Esto es altamente efectivo para aislar "errores" comunes o trayectorias atípicas.
+*   **Pruebas de Usabilidad con Usuarios:** Incluye una actividad para evaluar la herramienta visual interactiva con usuarios representativos (ej. coordinadores de carrera o estudiantes). Puedes medir métricas como el tiempo de análisis, tasa de errores y grado de satisfacción al intentar responder preguntas sobre el currículo.
+
+**4. Herramientas y Técnicas de Visualización (Para la interfaz web)**
+*   **Vistas Multicapa (Multi-layer Node-Link):** Estructura la visualización principal mapeando cada semestre en una capa horizontal. Representa las materias como nodos (círculos) cuyo radio sea proporcional a la cantidad de estudiantes en ese patrón.
+*   **Codificación bimodal de nodos:** Divide los círculos de las materias en semicírculos (por ejemplo, verde para aprobados y rojo para reprobados) para mostrar rendimiento de un solo vistazo sin sobrecargar la pantalla.
+*   **Conectores con Curvas de Bézier:** Para evitar la saturación visual (*cluttering*) que ocurre en grafos densos o diagramas de Sankey, utiliza curvas de Bézier agrupadas para conectar los patrones de materias, donde el grosor de la línea indique la cantidad (soporte) de estudiantes en esa trayectoria.
+*   **Vistas de matrices múltiples (Multi-matrix / Heatmaps):** Para complementar el grafo, puedes añadir matrices interactivas tipo mapa de calor que resalten las interdependencias globales entre cursos o actúen como filtros interactivos rápidos.

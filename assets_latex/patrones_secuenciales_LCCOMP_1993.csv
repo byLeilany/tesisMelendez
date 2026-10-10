@@ -1,0 +1,72 @@
+Lenght,Support,Pattern,PatternMaterias
+4,109,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013'), ('COMP930010',)]","{alg, analisis} -> {algo1, proba} -> {algo2, orga1} -> {inge2}"
+3,306,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013')]","{alg, analisis} -> {algo1, proba} -> {algo2, orga1}"
+3,142,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930010',)]","{alg, analisis} -> {algo1, proba} -> {inge2}"
+3,125,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930005', 'COMP930017')]","{alg, analisis} -> {algo1, proba} -> {algo3, SO}"
+3,123,"[('COMP930001', 'COMP930007'), ('COMP930004', 'COMP930013'), ('COMP930010',)]","{alg, analisis} -> {algo2, orga1} -> {inge2}"
+3,121,"[('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013'), ('COMP930010',)]","{algo1, proba} -> {algo2, orga1} -> {inge2}"
+3,110,"[('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013'), ('COMP930005', 'COMP930017')]","{algo1, proba} -> {algo2, orga1} -> {algo3, SO}"
+3,105,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016'), ('COMP930012', 'COMP930014')]","{alg, analisis} -> {algo1, proba} -> {metnum, orga2}"
+3,104,"[('COMP930001', 'COMP930007'), ('COMP930004', 'COMP930013'), ('COMP930005', 'COMP930017')]","{alg, analisis} -> {algo2, orga1} -> {algo3, SO}"
+2,434,"[('COMP930001', 'COMP930007'), ('COMP930003', 'COMP930016')]","{alg, analisis} -> {algo1, proba}"
+2,372,"[('COMP930001', 'COMP930007'), ('COMP930004', 'COMP930013')]","{alg, analisis} -> {algo2, orga1}"
+2,343,"[('COMP930003', 'COMP930016'), ('COMP930004', 'COMP930013')]","{algo1, proba} -> {algo2, orga1}"
+2,186,"[('!COMP930001',), ('!COMP930001',)]",{!alg} -> {!alg}
+2,168,"[('COMP930001', 'COMP930007'), ('COMP930010',)]","{alg, analisis} -> {inge2}"
+2,157,"[('COMP930003', 'COMP930016'), ('COMP930010',)]","{algo1, proba} -> {inge2}"
+2,149,"[('COMP930004', 'COMP930013'), ('COMP930010',)]","{algo2, orga1} -> {inge2}"
+2,149,"[('COMP930001', 'COMP930007'), ('COMP930003',)]","{alg, analisis} -> {algo1}"
+2,143,"[('COMP930001', 'COMP930007'), ('COMP930005', 'COMP930017')]","{alg, analisis} -> {algo3, SO}"
+2,140,"[('COMP930003', 'COMP930016'), ('COMP930005', 'COMP930017')]","{algo1, proba} -> {algo3, SO}"
+2,139,"[('!COMP930001',), ('COMP930001',)]",{!alg} -> {alg}
+2,122,"[('COMP930004', 'COMP930013'), ('COMP930005', 'COMP930017')]","{algo2, orga1} -> {algo3, SO}"
+2,119,"[('COMP930001', 'COMP930007'), ('COMP930005',)]","{alg, analisis} -> {algo3}"
+2,116,"[('!COMP930007',), ('!COMP930007',)]",{!analisis} -> {!analisis}
+2,113,"[('COMP930003', 'COMP930016'), ('COMP930012', 'COMP930014')]","{algo1, proba} -> {metnum, orga2}"
+2,113,"[('COMP930001', 'COMP930007'), ('COMP930012', 'COMP930014')]","{alg, analisis} -> {metnum, orga2}"
+2,112,"[('COMP930004', 'COMP930013'), ('COMP930005',)]","{algo2, orga1} -> {algo3}"
+2,110,"[('COMP930004', 'COMP930013'), ('COMP930014',)]","{algo2, orga1} -> {orga2}"
+2,109,"[('COMP930001',), ('COMP930003',)]",{alg} -> {algo1}
+2,107,"[('!COMP930001', '!COMP930007'), ('!COMP930001',)]","{!alg, !analisis} -> {!alg}"
+2,106,"[('COMP930004', 'COMP930013'), ('COMP930012', 'COMP930014')]","{algo2, orga1} -> {metnum, orga2}"
+2,104,"[('COMP930003',), ('!COMP930004',)]",{algo1} -> {!algo2}
+2,103,"[('COMP930003',), ('!COMP930005',)]",{algo1} -> {!algo3}
+2,103,"[('COMP930001',), ('COMP930015',)]",{alg} -> {plp}
+2,101,"[('COMP930003',), ('COMP930004', 'COMP930013')]","{algo1} -> {algo2, orga1}"
+2,100,"[('COMP930003',), ('COMP930004',)]",{algo1} -> {algo2}
+1,748,"[('COMP930001', 'COMP930007')]","{alg, analisis}"
+1,609,"[('COMP930001',)]",{alg}
+1,605,"[('!COMP930001',)]",{!alg}
+1,567,"[('COMP930004', 'COMP930013')]","{algo2, orga1}"
+1,503,"[('COMP930003', 'COMP930016')]","{algo1, proba}"
+1,445,"[('COMP930003',)]",{algo1}
+1,438,"[('!COMP930001', '!COMP930007')]","{!alg, !analisis}"
+1,432,"[('!COMP930007',)]",{!analisis}
+1,270,"[('!COMP930005',)]",{!algo3}
+1,266,"[('!COMP930003',)]",{!algo1}
+1,243,"[('COMP930004',)]",{algo2}
+1,238,"[('!COMP930001', 'COMP930007')]","{!alg, analisis}"
+1,233,"[('COMP930015',)]",{plp}
+1,231,"[('COMP930005',)]",{algo3}
+1,224,"[('COMP930010',)]",{inge2}
+1,215,"[('COMP930014',)]",{orga2}
+1,213,"[('!COMP930004',)]",{!algo2}
+1,198,"[('COMP930007',)]",{analisis}
+1,182,"[('!COMP930015',)]",{!plp}
+1,179,"[('COMP930012',)]",{metnum}
+1,179,"[('COMP930005', 'COMP930017')]","{algo3, SO}"
+1,176,"[('!COMP930004', 'COMP930013')]","{!algo2, orga1}"
+1,168,"[('COMP930017',)]",{SO}
+1,157,"[('!COMP930007', 'COMP930001')]","{!analisis, alg}"
+1,156,"[('COMP930008',)]",{bases}
+1,156,"[('COMP930009',)]",{inge1}
+1,144,"[('!COMP930016', 'COMP930003')]","{!proba, algo1}"
+1,136,"[('COMP930013',)]",{orga1}
+1,135,"[('!COMP930012',)]",{!metnum}
+1,133,"[('COMP930012', 'COMP930014')]","{metnum, orga2}"
+1,130,"[('COMP930009', 'COMP930018')]","{inge1, redes}"
+1,130,"[('!COMP930014',)]",{!orga2}
+1,110,"[('COMP930016',)]",{proba}
+1,108,"[('COMP930012', 'COMP930017')]","{metnum, SO}"
+1,103,"[('!COMP930004', '!COMP930013')]","{!algo2, !orga1}"
+1,101,"[('COMP930015', 'COMP930019')]","{plp, tleng}"

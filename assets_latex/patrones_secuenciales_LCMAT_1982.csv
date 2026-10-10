@@ -1,0 +1,14 @@
+Lenght,Support,Pattern,PatternMaterias
+2,196,"[('MATE820001', 'MATE820007'), ('MATE820004', 'MATE820008')]","{alg1, anl1} -> {algLineal, anl2}"
+1,400,"[('MATE820001', 'MATE820007')]","{alg1, anl1}"
+1,220,"[('MATE820004', 'MATE820008')]","{algLineal, anl2}"
+1,145,"[('MATE820004',)]",{algLineal}
+1,141,"[('MATE820007',)]",{anl1}
+1,134,"[('!MATE820004',)]",{!algLineal}
+1,128,"[('MATE820011',)]",{CalAvz}
+1,118,"[('!MATE820001',)]",{!alg1}
+1,117,"[('!MATE820007',)]",{!anl1}
+1,115,"[('MATE820008',)]",{anl2}
+1,109,"[('MATE820014',)]",{ECN}
+1,102,"[('!MATE820001', '!MATE820007')]","{!alg1, !anl1}"
+1,101,"[('!MATE820004', 'MATE820008')]","{!algLineal, anl2}"
