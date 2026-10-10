@@ -1,0 +1,17 @@
+codigo_materia,nombre_oficial,nomenclatura,cuatrimestre_sugerido
+MATE820007,Análisis I,anl1,1
+MATE820001,Álgebra I,alg1,1
+MATE820008,Análisis II,anl2,2
+MATE820004,Álgebra Lineal,algLineal,2
+MATE820014,Elementos de Cálculo numérico,ECN,3
+MATE820011,Cálculo Avanzado,CalAvz,3
+MATE820005,Análisis Complejo,anlCompj,4
+MATE820022,Probabilidades y Estadística,proba,4
+MATE820010,Análisis Real,anlReal,5
+MATE820002,Álgebra II,alg2,5
+MATE820017,Geometría Proyectiva,GemProy,6
+MATE820025,Topología,topo,6
+MATE820016,Geometría Diferencial,GemDif,7
+MATE820006,Análisis Funcional,anlFun,7
+MATE820003,Álgebra III,alg3,8
+MATE820012,Ecuaciones Diferenciales A,ecuDifA,8

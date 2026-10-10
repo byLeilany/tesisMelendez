@@ -1,0 +1,36 @@
+:root{
+    --Dash-Fill-Interactive-Strong:  #009eac96 !important;
+    /* --Dash-Spacing: 0px !important; */
+}
+
+.dash-dropdown {
+    accent-color: #009DAC !important;
+    outline-color: #009DAC !important;
+}
+
+.dash-slider-range {
+    background-color: #009DAC !important;
+    accent-color: #009DAC !important;
+    outline-color: #009DAC !important; 
+}
+
+.dash-slider-thumb {
+    background-color: #009DAC !important;
+    accent-color: #009DAC !important;
+    outline-color: #009DAC !important; 
+}
+
+.cmSQpo {
+    background-color: #cccccc !important;
+    accent-color: #009DAC !important;
+    outline-color: #009DAC !important; 
+}
+
+.dash-options-list-option-checkbox {
+    accent-color:  #009eac96 !important;
+    outline-color: #009DAC !important   
+}
+
+.dash-options-list-option:not(:has(input[disabled])):hover {
+    color: #009DAC !important 
+}

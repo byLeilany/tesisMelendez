@@ -1,0 +1,18 @@
+codigo_materia,nombre_oficial,nomenclatura,cuatrimestre_sugerido
+COMP930001,Álgebra I,alg,1
+COMP930007,Análisis II,analisis,1
+COMP930016,Probabilidades y Estadística,proba,2
+COMP930003,Algoritmos y Estructuras de Datos I,algo1,2
+COMP930013,Organización del Computador I,orga1,3
+COMP930004,Algoritmos y Estructuras de Datos II,algo2,3
+COMP930014,Organización del Computador II,orga2,4
+COMP930012,Métodos Numéricos,metnum,4
+COMP930005,Algoritmos y Estructuras de Datos III,algo3,5
+COMP930017,Sistemas Operativos,SO,5
+COMP930018,Teoría de las Comunicaciones,redes,6
+COMP930009,Ingeniería de Software I,inge1,6
+COMP930011,Lógica y Computabilidad,lyc,6
+COMP930008,Base de Datos,bases,7
+COMP930015,Paradigmas de Programación,plp,7
+COMP930019,Teoría de Lenguajes,tleng,7
+COMP930010,Ingeniería de Software II,inge2,8

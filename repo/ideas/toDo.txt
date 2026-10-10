@@ -1,0 +1,71 @@
+25/03/2026
+- adition: que sea posible ver por año especifico, y todas las cursadas
+
+______________
+pregunta:
+2) Distancia de edicion / bioinformatica "como saber ***** con a lo sumo n diferencias?" n == #materiasDistintasEnElEstado 
+1)"como saber cuantas personas totales cursaron el plan sugerido?"
+~~~
+
+
+- agarrarr todos los datos de personas de compu, cuantas personas de planViejo obtendrian el titulo intermedio en el planNuevo. (Tener en cuenta las equivalencias)
+- graphs IdeaGrafo.png:  
+     y: estudiantes, ordenados por fechaDeCierreActa (en caso de empate, menor tiempo en rendir el final)
+     x: barra que empieza en fechaDeCierreActa y termina en fechaMesaFinal ###cuanto tardo cada persona en dar el Final.
+          ### fechaDeCierreActa, y/o fechaFinCuatri
+
+-02/2026: size de circulo es #genteTPAprobo -> #genteFinalAprobo  (atractivo visual ). 
+-OBJ: boton de importar datos (input: plan de estudio, cursadas, y año), y el visualizar nos da grafo de TP, de Finales y distAFinal. web
+
+
+
+- todas las cursadas con nombre "analisis" para obtener el conj de codigo_materias.
+
+
+__________________
+06/01/2025
+[DONE] hacer lo grafo FINALES para datos
+[DONE] Resoluciones buscar "actividades academicas" "fechas" para fechas de inicio y final d cuatrimestres h ttp://www.fcen.uba.ar/ConsejoDirectivo/index/resoluciones. RES: archivo output_fechasCalendarioAcademico.csv
+ 
+
+
+
+
+
+
+_________________
+17/12/2025
+[DONE] hacer lo grafo TP para datos
+[DONE] - a que cuatri corresponde el final ? ### la ultima cursada aprobada de la materia de ese final
+[DONE] - Chequear de CalidadDeDatos: Si en todos los cuatris, tenemos acta de c/materiaObligatoria. Ver que fecha_cierre_acta este bien (proxima al cuatri cuando se impartió la materia)
+[DONE] correr con archivos de pablo  M. ### editado para utilizar campos nuevos:    
+     ###  a) cursadasPorAlumno2->periodoLectivo (da igual todo 1erBimestre == Verano).
+     ###  b) finalesPorAlumno2->fechaLlamadoMesa para calidad de datos (y no usar fechaCierreDeActa en resta)
+
+
+
+
+
+
+_________________
+[DONE] chequear a mano cantidad de personas que aprueban analisisY
+[DONE] loop que sean #estudiantesQueReprobaron (en vez de cantidad de cursadas)
+[DONE] que significa el grosor de la flechas: " cantidad de veces que pasaron 
+[DONE] probar con otro año
+
+
+01/11/2025
+[DONE] marcar nodos con las del plan sugerido 
+[DONE] ~Waiting respueta~. Tomar como 'cuatri' las cursadas de verano. Y si es posible solicitar a Pablo M: que nos alcanzen la columna de Periodo_Lectivo y es posible la misma base pero para la carrera de Ciencia de Datos (le redacto el mail solicitándoselo luego de este mail)
+     [DONE] hacer grafico pero de los finales DUDA: tomar fecha_cierre_acta?? o tomar pre-Finales-Invierno y los 
+     [DONE] Tomar solo finales Aprobados
+     [DONE] Rpta: NO. Ver si hay distinción con Promoción 
+     [DONE] Distancia entre práctico y final
+     [DONE]. promedio desde cuando cursaron al final (x materia)
+[DONE] -Anotar: si elijo las optativas, no converje el grafico 
+     [DONE] Redactar resultados encontrados hasta ahora, definir semántica del loop y de aristas en general (en el archivo que se encuentra en un drive)
+
+[MAIL SENT] base de finales, puntos de interés:   DUDA == enviar mail a Pablo M.
+     DUDA: que sucede con finales libres??
+     DUDA2: habrá otra fecha de finales? tipo fechaInscripcion / fechaRendir? porque tomar solo la de acta no es tan representativo
+

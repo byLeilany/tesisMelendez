@@ -1,0 +1,60 @@
+
+-Anotar: si elijo las optativas, no converje el grafico 
+
+
+
+que representa estar en un loop? Definir semantica: haberme anotado a ANY materia y no aprobe. 
+Haberme inscrito en la alguna materia, y quedé en el mismo estado. 
+
+
+
+
+____________
+Mati Comments:
+evolucion del conjunto de cantidad de personas iniciales, al siguiente 
+
+
+
+cada nodo tiene a los estudiantes que llegaron a ese punto en cada cuatrimestre de su carrera
+cada transicion representa cada alumno que hizo esa cursada en algun punto de su carrera
+
+
+estudiantes en cada cuatri transitan una flecha
+
+
+__________________
+ver tema finales:
+definir: rendir mas de una vez los finales. Tomar los finales aprobados?
+Hacer definiciones: que nos interesa
+- distancia entre practico y final
+- ver materias de promocion q onda? chequear basess
+- tomar solo las aprobaciones A de finales. 
+
+- comparar cursadas vs finales:
+	- promedio desde cuando cursaron el final
+	- 
+
+
+- CHEKEAR: calidad de datos que tenemos. Si en todos los cuatris que tenemos, tenemos acta de c/materiaObligatoria. Ver que fecha_cierre_acta sea ~~== anio_academico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

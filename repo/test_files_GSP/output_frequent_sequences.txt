@@ -1,0 +1,9 @@
+	AdvancedCalculus	 :3 
+	AdvancedCalculus	 Math101	 :3 
+	Math101	 Math201	 :4 
+	AdvancedCalculus	 Math101	 Math201	 :3 
+	AdvancedCalculus	 Math201	 :3 
+	Math101	 :5 
+	Math101	 Physics101	 :3 
+	Math201	 :4 
+	Physics101	 :3 

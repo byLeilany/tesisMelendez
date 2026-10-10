@@ -1,0 +1,125 @@
+nodo 0
+Empty DataFrame
+Columns: [codigo_materia, nombre_materia]
+Index: []
+______________________
+nodo 1
+  codigo_materia nombre_materia
+0     COMP930007    Análisis II
+______________________
+nodo 2
+  codigo_materia nombre_materia
+0     COMP930001      Álgebra I
+1     COMP930007    Análisis II
+______________________
+nodo 3
+  codigo_materia                       nombre_materia
+0     COMP930001                            Álgebra I
+1     COMP930003  Algoritmos y Estructuras de Datos I
+2     COMP930007                          Análisis II
+______________________
+nodo 4
+  codigo_materia                       nombre_materia
+0     COMP930001                            Álgebra I
+1     COMP930003  Algoritmos y Estructuras de Datos I
+2     COMP930007                          Análisis II
+3     COMP930016         Probabilidades y Estadística
+______________________
+nodo 5
+  codigo_materia                        nombre_materia
+0     COMP930001                             Álgebra I
+1     COMP930003   Algoritmos y Estructuras de Datos I
+2     COMP930004  Algoritmos y Estructuras de Datos II
+3     COMP930007                           Análisis II
+4     COMP930016          Probabilidades y Estadística
+______________________
+nodo 6
+  codigo_materia                        nombre_materia
+0     COMP930001                             Álgebra I
+1     COMP930003   Algoritmos y Estructuras de Datos I
+2     COMP930004  Algoritmos y Estructuras de Datos II
+3     COMP930007                           Análisis II
+4     COMP930013         Organización del Computador I
+5     COMP930016          Probabilidades y Estadística
+______________________
+nodo 7
+  codigo_materia                         nombre_materia
+0     COMP930001                              Álgebra I
+1     COMP930003    Algoritmos y Estructuras de Datos I
+2     COMP930004   Algoritmos y Estructuras de Datos II
+3     COMP930005  Algoritmos y Estructuras de Datos III
+4     COMP930007                            Análisis II
+5     COMP930013          Organización del Computador I
+6     COMP930016           Probabilidades y Estadística
+______________________
+nodo 10
+  codigo_materia                        nombre_materia
+0     COMP930001                             Álgebra I
+1     COMP930003   Algoritmos y Estructuras de Datos I
+2     COMP930004  Algoritmos y Estructuras de Datos II
+3     COMP930007                           Análisis II
+4     COMP930013         Organización del Computador I
+______________________
+nodo 12
+  codigo_materia                        nombre_materia
+0     COMP930001                             Álgebra I
+1     COMP930003   Algoritmos y Estructuras de Datos I
+2     COMP930004  Algoritmos y Estructuras de Datos II
+3     COMP930007                           Análisis II
+4     COMP930013         Organización del Computador I
+5     COMP930014        Organización del Computador II
+6     COMP930016          Probabilidades y Estadística
+______________________
+nodo 13
+  codigo_materia                         nombre_materia
+0     COMP930001                              Álgebra I
+1     COMP930003    Algoritmos y Estructuras de Datos I
+2     COMP930004   Algoritmos y Estructuras de Datos II
+3     COMP930005  Algoritmos y Estructuras de Datos III
+4     COMP930007                            Análisis II
+5     COMP930013          Organización del Computador I
+6     COMP930014         Organización del Computador II
+7     COMP930016           Probabilidades y Estadística
+______________________
+nodo 14
+  codigo_materia nombre_materia
+0     COMP930001      Álgebra I
+______________________
+nodo 15
+  codigo_materia                       nombre_materia
+0     COMP930001                            Álgebra I
+1     COMP930003  Algoritmos y Estructuras de Datos I
+______________________
+nodo 17
+  codigo_materia                       nombre_materia
+0     COMP930001                            Álgebra I
+1     COMP930003  Algoritmos y Estructuras de Datos I
+2     COMP930007                          Análisis II
+3     COMP930013        Organización del Computador I
+4     COMP930016         Probabilidades y Estadística
+______________________
+nodo 45
+  codigo_materia                nombre_materia
+0     COMP930001                     Álgebra I
+1     COMP930007                   Análisis II
+2     COMP930016  Probabilidades y Estadística
+______________________
+nodo 50
+  codigo_materia                       nombre_materia
+0     COMP930003  Algoritmos y Estructuras de Datos I
+______________________
+nodo 57
+  codigo_materia                  nombre_materia
+0     COMP230008  Introducción a la Programación
+______________________
+nodo 115
+  codigo_materia                        nombre_materia
+0     COMP930001                             Álgebra I
+1     COMP930003   Algoritmos y Estructuras de Datos I
+2     COMP930004  Algoritmos y Estructuras de Datos II
+3     COMP930007                           Análisis II
+4     COMP930013         Organización del Computador I
+5     COMP930014        Organización del Computador II
+6     COMP930016          Probabilidades y Estadística
+7     COMP930017                   Sistemas Operativos
+______________________

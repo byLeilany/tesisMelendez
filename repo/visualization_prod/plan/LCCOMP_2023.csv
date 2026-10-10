@@ -1,0 +1,17 @@
+codigo_materia,nombre_oficial,nomenclatura,cuatrimestre_sugerido
+COMP930001,Álgebra I,alg,1
+COMP230008,Introducción a la Programación,intro,1
+COMP230003,Análisis I,analisis,2
+COMP230001,Algoritmos y Estructuras de Datos,algo,2
+COMP230015,Técnicas de Diseño de Algoritmos,TDA,3
+COMP230014,Sistemas Digitales,sistDig,3
+COMP930015,Paradigmas de Programación,plp,3
+COMP230009,Lenguajes Formales Autómatas y Computabilidad,lengF,4
+COMP230004,Arquitectura y Organización de Computadores,arqOrg,4
+COMP230007,Ingeniería de Software,ingSoft,4
+LCDA210006,Álgebra Lineal Computacional,ALC,5
+COMP230005,Complejidad Computacional,complej,5
+COMP930017,Sistemas Operativos,telcom,5
+COMP230006,Estadística Computacional,proba,6
+COMP230002,Almacenamiento y Recuperación de la Información,bd,6
+COMP230013,Seminario sobre Tecnología y Sociedad,seminario,7

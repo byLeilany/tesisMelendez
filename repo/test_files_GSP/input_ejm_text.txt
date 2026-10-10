@@ -1,0 +1,6 @@
+Math101 Physics101    Math201    AdvancedCalculus
+Math101    Math201    AdvancedCalculus
+IntroToCS Math101    DataStructures Math201    Algorithms
+IntroToCS    DataStructures    Algorithms Databases
+Math101 Physics101    Physics201    QuantumMechanics
+Math101 Physics101    Math201    AdvancedCalculus Extra

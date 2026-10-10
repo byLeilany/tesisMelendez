@@ -1,0 +1,18 @@
+codigo_materia,nombre_oficial,nomenclatura,cuatrimestre_sugerido
+LCDA210010,Introducción al Modelado Continuo,InMoC,6
+LCDA210009,Introducción a la Investigación Operativa y Optimización,IIOO,6
+LCDA210008,Introducción a la Estadística y Ciencia de Datos,IEC,6
+LCDA210007,Probabilidad,proba,5
+LCDA210006,Álgebra Lineal Computacional,ALC,3
+LCDA210005,Análisis Avanzado,avanz,4
+LCDA210004,Laboratorio de Datos,labDato,3
+LCDA210003,Análisis II,analisis2,3
+LCDA210002,Álgebra I,alg,1
+LCDA210001,Análisis I,analisis1,2
+COMP930005,Algoritmos y Estructuras de Datos III,algo3,5
+COMP930004,Algoritmos y Estructuras de Datos II,algo2,2
+COMP930003,Algoritmos y Estructuras de Datos I,algo1,1
+COMP930001,Álgebra I,alg,1
+COMP230015,Técnicas de Diseño de Algoritmos,algo3,5
+COMP230008,Introducción a la Programación,algo1,1
+COMP230001,Algoritmos y Estructuras de Datos,algo1,2
