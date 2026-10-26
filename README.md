@@ -34,3 +34,21 @@ Los planes de estudio se representan mediante archivos `.csv` ubicados en **`rep
 
 ### Obtener el código de carrera para un nuevo plan
 El notebook **`materias_para_catalog.ipynb`** permite explorar la hoja *"lista de materias"* del archivo `.xlsx` seleccionado, filtrada por el prefijo identificatorio de cada carrera. Por ejemplo, las materias de la Licenciatura en Ciencias de la Computación utilizan los prefijos `COMP93` (Plan 93) y `COMP23` (Plan 2023).
+
+### Reproducir los histogramas de distribución temporal por materia
+
+Los histogramas de distribución del primer intento de cursada por cuatrimestre (utilizados en el análisis de sincronía y retraso estructural) se generan mediante el notebook **`repo/histograma_NroCuatri_CantPersona.ipynb`**.
+
+**Requisitos previos:** tener configurada la base de datos (ver sección *Cambiar la base de datos utilizada*) y al menos un archivo de plan de estudios en `repo/visualization_prod/plan/`.
+
+**Parámetros configurables al inicio del notebook:**
+
+| Variable | Descripción |
+|---|---|
+| `SOURCE_PATH` | Ruta al archivo `.xlsx` o carpeta con CSVs de la base SIU-Guaraní |
+| `PLANS_DIR` | Ruta a la carpeta con los archivos `.csv` de planes de estudio |
+| `PLAN_ID` | Identificador del plan a analizar, con formato `CARRERA_PLAN` (ej. `LCCOMP_93`) |
+| `MATERIAS` | Lista de códigos de materia a graficar |
+| `YEAR_LIST` | Lista de años de inscripción que definen la camada a analizar |
+
+Al ejecutar todas las celdas se genera un gráfico por materia con la distribución empírica del `step_nro` del primer intento de cursada, la mediana empírica, el cuatrimestre sugerido por el plan y el valor $\Delta$ resultante.
